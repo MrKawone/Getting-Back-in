@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- added LINK tag to connect HTML to the CSS to add styling-->
+  </head>
+  <body>
+    <section> <!--will break apart the page into smaller section!> --> 
+      <nav> <!--NAV is the navigation bar -->
+        <img src="./assets/FES.svg" alt="" /> <!-- the SRC will choose what file will be shown in the image and the ALT is what would be shown on devices that can not show the image-->
+        <ul> <!-- UL is the start of an Unordered List-->
+          <li><a href="#about">About</a></li>  <!-- LI is an List Item-->
+          <li><a href="#discord">Discord</a></li> <!-- A tags act as links to take you from point at to point be-->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header><!-- HEADER is the next section under the NAV BAR-->
+        <div> <!-- DIV is used to create separation between items or to put items on separate lines-->
+          <h1>Best Place to Learn Frontend</h1> <!-- H1 is a title font they get smaller as the number gets bigger H2 H3... -->
+          <p> <!-- P tag is for paragraph or just sections of text to read-->
+            Go from being a beginner to being a pro with a simplified processs
+          </p>
+          <button>Start Now</button> <!-- Button Tags just creates a butto with no fuctionallity until added later by adding and A tag or something else that I do not know right now-->
+        </div>
+        <figure>
+          <img src="./assets/laptop.png" alt="Home Page Image" />
+        </figure>
+      </header>
+    </section>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
+            animi vero laudantium. Animi quae facilis sequi quia culpa numquam
+            tenetur ipsam voluptas praesentium soluta accusantium porro, iste,
+            consectetur nulla dolorum?
+          </p>
+        </div>
+        <figure>
+          <img src="./assets/about.jpg" alt="" /> 
+        </figure>
+      </section>
+      <section id="discord">
+        <h2>Discord</h2>
+        <figure><img src="./assets/discord.png" alt="" /></figure>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nobis
+          commodi voluptates. Adipisci fugiat, officiis esse, ut eos fuga
+          architecto tempore vitae molestias consequatur numquam perferendis,
+          eius totam. Unde, itaque.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Cantact</h2>
+        <form action="">
+          <label for="Email"></label>
+          <input type="text" placeholder="jane@example.com" />
+          <label for="Message"></label>
+          <textarea
+            type="text"
+            placeholder="Hi Billy Bob Bo Jenkins here!"
+          ></textarea>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img src="./assets/FES.svg" alt="" />
+      <div>
+        <a href="#about">About</a>
+        <a href="#Discord">Discord</a>
+        <a href="#contact">Contact</a>
+        <a href="">Courses</a>
+      </div>
+      <p>Copyright Frontend Simplified</p>
+    </footer>
+  </body>
+</html>
